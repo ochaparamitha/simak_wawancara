@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>LKPD Digital Bahasa Indonesia Kelas VI SD</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter & Comic Neue -->
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        court: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                        },
+                        shuttle: {
+                            gold: '#fbbf24',
+                            sky: '#0284c7',
+                            soft: '#e0f2fe'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        header: ['Comic Neue', 'cursive', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Mobile Enhancements */
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .font-header {
+            font-family: 'Comic Neue', cursive, sans-serif;
+        }
+        .radio-custom:checked + label {
+            border-color: #16a34a;
+            background-color: #f0fdf4;
+            color: #15803d;
+            font-weight: 600;
+        }
+        .radio-custom:checked + label .icon-check {
+            opacity: 1;
+            transform: scale(1);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+        /* Custom scrollbar for mobile responsiveness */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #22c55e;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-emerald-50 via-teal-50 to-sky-50 min-h-screen text-slate-800 pb-10">
+
+    <!-- Top Header Bar -->
+    <header class="sticky top-0 z-40 bg-court-700 text-white shadow-lg border-b-4 border-amber-400">
+        <div class="max-w-3xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="w-9 h-9 bg-amber-400 rounded-full flex items-center justify-center text-court-800 font-bold text-xl shadow">
+                    <i class="fa-solid fa-feather-pointed"></i>
+                </div>
+                <div>
+                    <h1 class="font-header font-bold text-lg leading-tight tracking-wide text-amber-300">LKPD DIGITAL PJJ</h1>
+                    <p class="text-xs text-emerald-100">Bahasa Indonesia Kelas VI SD</p>
+                </div>
+            </div>
+            <div class="text-right bg-court-800/60 px-3 py-1 rounded-full border border-emerald-400/30 text-xs text-amber-300">
+                <i class="fa-solid fa-medal text-amber-300 mr-1"></i> Max: 100 Pts
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-3xl mx-auto px-4 mt-4">
+
+        <!-- SECTION 1: PORTAL AWAL / PETUNJUK & IDENTITAS -->
+        <section id="portal-section" class="space-y-4">
+            
+            <!-- Banner Header Card -->
+            <div class="bg-gradient-to-r from-court-600 to-teal-600 rounded-2xl p-5 text-white shadow-xl relative overflow-hidden">
+                <div class="absolute -right-6 -bottom-6 w-32 h-32 bg-white/10 rounded-full blur-xl pointer-events-none"></div>
+                <div class="inline-block bg-amber-400 text-court-800 text-xs font-bold px-3 py-1 rounded-full mb-2 uppercase tracking-wider">
+                    Bahasa Indonesia Kelas VI
+                </div>
+                <h2 class="text-xl md:text-2xl font-bold font-header leading-snug text-white drop-shadow">
+                    Bab 3: Temukan Minat, Tunjukkan Bakat
+                </h2>
+                <p class="text-sm text-amber-200 font-semibold mt-1">
+                    Menyimak Wawancara Atlet Bulu Tangkis
+                </p>
+                <p class="text-xs text-emerald-100 mt-2 flex items-center gap-1">
+                    <i class="fa-solid fa-clock"></i> Estimasi Waktu: 30 - 45 Menit
+                </p>
+            </div>
+
+            <!-- Petunjuk Pengerjaan Card -->
+            <div class="bg-white rounded-2xl p-5 shadow-md border border-emerald-100 space-y-3">
+                <h3 class="font-bold text-court-700 flex items-center gap-2 text-base border-b border-emerald-100 pb-2">
+                    <i class="fa-solid fa-list-check text-amber-500"></i> Petunjuk Pengerjaan
+                </h3>
+                <ol class="space-y-2 text-xs md:text-sm text-slate-600 list-none">
+                    <li class="flex items-start gap-2.5">
+                        <span class="flex-shrink-0 w-5 h-5 rounded-full bg-court-100 text-court-700 font-bold text-xs flex items-center justify-center">1</span>
+                        <span>Tonton video wawancara melalui pemutar video di bawah ini atau buka link <a href="https://www.youtube.com/watch?v=zS-mfgrFkIg" target="_blank" rel="noopener noreferrer" class="text-sky-600 font-semibold hover:underline">https://www.youtube.com/watch?v=zS-mfgrFkIg</a>.</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <span class="flex-shrink-0 w-5 h-5 rounded-full bg-court-100 text-court-700 font-bold text-xs flex items-center justify-center">2</span>
+                        <span>Simak pertanyaan dan jawaban narasumber dengan saksama.</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <span class="flex-shrink-0 w-5 h-5 rounded-full bg-court-100 text-court-700 font-bold text-xs flex items-center justify-center">3</span>
+                        <span>Jawablah semua soal (Total 20 Soal) berdasarkan video dan materi pembelajaran.</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <span class="flex-shrink-0 w-5 h-5 rounded-full bg-court-100 text-court-700 font-bold text-xs flex items-center justify-center">4</span>
+                        <span>Setiap soal bernilai <strong>5 poin</strong>. Nilai Maksimal = <strong>100</strong>.</span>
+                    </li>
+                </ol>
+            </div>
+
+            <!-- Embedded YouTube Video Container -->
+            <div class="bg-white rounded-2xl p-4 shadow-md border border-emerald-100 space-y-3">
+                <div class="flex items-center justify-between">
+                    <h3 class="font-bold text-slate-800 text-sm flex items-center gap-2">
+                        <i class="fa-brands fa-youtube text-red-500 text-lg"></i> Video Wawancara Atlet
+                    </h3>
+                    <a href="https://www.youtube.com/watch?v=zS-mfgrFkIg" target="_blank" rel="noopener noreferrer" class="text-xs text-sky-600 hover:underline flex items-center gap-1 font-medium">
+                        Buka di YT <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                    </a>
+                </div>
+                
+                <!-- Responsive Aspect Ratio 16:9 Video -->
+                <div class="relative w-full rounded-xl overflow-hidden bg-slate-900 shadow-inner" style="padding-top: 56.25%;">
+                    <iframe 
+                        class="absolute top-0 left-0 w-full h-full border-0"
+                        src="https://www.youtube-nocookie.com/embed/zS-mfgrFkIg" 
+                        title="Video Wawancara Atlet Bulu Tangkis" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <p class="text-[11px] text-slate-500 italic text-center">
+                    *Putar video di atas sebelum atau saat menjawab soal latihan.
+                </p>
+            </div>
+
+            <!-- Form Identitas Siswa -->
+            <div class="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl p-5 shadow-md border-2 border-amber-200 space-y-4">
+                <div class="flex items-center gap-2 text-amber-800 font-bold text-base">
+                    <i class="fa-solid fa-id-card text-amber-600"></i>
+                    <span>Form Identitas Siswa</span>
+                </div>
+                <div>
+                    <label for="studentName" class="block text-xs font-semibold text-slate-700 mb-1">
+                        Nama Siswa <span class="text-red-500">*</span>
+                    </label>
+                    <input 
+                        type="text" 
+                        id="studentName" 
+                        placeholder="Ketik nama lengkapmu di sini..." 
+                        class="w-full px-4 py-3 rounded-xl border border-amber-300 focus:ring-2 focus:ring-court-500 focus:border-court-500 outline-none text-sm transition-all shadow-sm bg-white"
+                        autocomplete="off"
+                    >
+                    <p id="nameError" class="text-xs text-red-500 mt-1 hidden flex items-center gap-1">
+                        <i class="fa-solid fa-circle-exclamation"></i> Nama siswa wajib diisi sebelum memulai!
+                    </p>
+                </div>
+                <button 
+                    onclick="startQuiz()" 
+                    class="w-full py-3.5 px-6 bg-court-600 hover:bg-court-700 active:scale-[0.98] text-white font-bold rounded-xl shadow-lg shadow-court-600/30 flex items-center justify-center gap-2 transition-all duration-150 text-base"
+                >
+                    <span>Mulai Mengerjakan LKPD</span>
+                    <i class="fa-solid fa-circle-arrow-right"></i>
+                </button>
+            </div>
+
+        </section>
+
+        <!-- SECTION 2: BANK SOAL LKPD (Hidden by default) -->
+        <section id="quiz-section" class="hidden space-y-6">
+
+            <!-- Sticky Info Header Bar -->
+            <div class="sticky top-[60px] z-30 bg-white/95 backdrop-blur shadow-sm rounded-xl p-3 border border-emerald-100 flex items-center justify-between">
+                <div class="text-xs text-slate-600">
+                    Siswa: <span id="displayStudentName" class="font-bold text-court-700"></span>
+                </div>
+                <div class="text-xs font-bold text-amber-600 bg-amber-50 px-2.5 py-1 rounded-full border border-amber-200">
+                    <span id="answeredCount">0</span> / 20 Terjawab
+                </div>
+            </div>
+
+            <!-- FORM UNTUK SOAL -->
+            <form id="lkpdForm" class="space-y-6">
+
+                <!-- BAGIAN 1: BENAR ATAU SALAH (Soal 1–5) -->
+                <div class="bg-white rounded-2xl p-5 shadow-md border border-emerald-100 space-y-5">
+                    <div class="border-b border-emerald-100 pb-3">
+                        <span class="bg-emerald-100 text-court-800 text-[10px] font-extrabold px-2.5 py-1 rounded-full uppercase">Bagian 1</span>
+                        <h3 class="font-bold text-slate-800 text-base mt-1">BENAR ATAU SALAH (Soal 1–5)</h3>
+                        <p class="text-xs text-slate-500">Petunjuk: Pilih Benar atau Salah sesuai informasi dalam wawancara.</p>
+                    </div>
+
+                    <!-- Soal 1 -->
+                    <div class="space-y-2 border-b border-slate-100 pb-4">
+                        <p class="text-sm font-medium text-slate-800">1. Kak Nitya mulai mengenal bulu tangkis karena mengikuti kakak sepupunya.</p>
+                        <div class="grid grid-cols-2 gap-2 pt-1">
+                            <div>
+                                <input type="radio" id="q1_a" name="q1" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q1_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs font-medium cursor-pointer transition-all hover:bg-slate-50">
+                                    <span>Benar</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check transition-all"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q1_b" name="q1" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q1_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs font-medium cursor-pointer transition-all hover:bg-slate-50">
+                                    <span>Salah</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check transition-all"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soal 2 -->
+                    <div class="space-y-2 border-b border-slate-100 pb-4">
+                        <p class="text-sm font-medium text-slate-800">2. Kak Nitya akhirnya memutuskan terus berlatih bulu tangkis karena semakin menyukai olahraga tersebut.</p>
+                        <div class="grid grid-cols-2 gap-2 pt-1">
+                            <div>
+                                <input type="radio" id="q2_a" name="q2" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q2_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs font-medium cursor-pointer transition-all hover:bg-slate-50">
+                                    <span>Benar</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check transition-all"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q2_b" name="q2" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q2_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs font-medium cursor-pointer transition-all hover:bg-slate-50">
+                                    <span>Salah</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check transition-all"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soal 3 -->
+                    <div class="space-y-2 border-b border-slate-100 pb-4">
+                        <p class="text-sm font-medium text-slate-800">3. Ketika masih menjadi atlet, Kak Nitya menjalani latihan pada pagi dan sore hari.</p>
+                        <div class="grid grid-cols-2 gap-2 pt-1">
+                            <div>
+                                <input type="radio" id="q3_a" name="q3" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q3_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs font-medium cursor-pointer transition-all hover:bg-slate-50">
+                                    <span>Benar</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check transition-all"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q3_b" name="q3" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q3_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs font-medium cursor-pointer transition-all hover:bg-slate-50">
+                                    <span>Salah</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check transition-all"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soal 4 -->
+                    <div class="space-y-2 border-b border-slate-100 pb-4">
+                        <p class="text-sm font-medium text-slate-800">4. Menurut Kak Nitya, menjadi atlet tidak memiliki kesulitan karena selalu dekat dengan keluarga.</p>
+                        <div class="grid grid-cols-2 gap-2 pt-1">
+                            <div>
+                                <input type="radio" id="q4_a" name="q4" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q4_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs font-medium cursor-pointer transition-all hover:bg-slate-50">
+                                    <span>Benar</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check transition-all"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q4_b" name="q4" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q4_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs font-medium cursor-pointer transition-all hover:bg-slate-50">
+                                    <span>Salah</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check transition-all"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soal 5 -->
+                    <div class="space-y-2">
+                        <p class="text-sm font-medium text-slate-800">5. Kak Nitya menyampaikan bahwa seorang atlet perlu memiliki disiplin, tanggung jawab, dan kemauan yang tinggi.</p>
+                        <div class="grid grid-cols-2 gap-2 pt-1">
+                            <div>
+                                <input type="radio" id="q5_a" name="q5" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q5_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs font-medium cursor-pointer transition-all hover:bg-slate-50">
+                                    <span>Benar</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check transition-all"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q5_b" name="q5" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q5_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs font-medium cursor-pointer transition-all hover:bg-slate-50">
+                                    <span>Salah</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check transition-all"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BAGIAN 2: MENGENALI UNSUR WAWANCARA (Soal 6–10) -->
+                <div class="bg-white rounded-2xl p-5 shadow-md border border-emerald-100 space-y-5">
+                    <div class="border-b border-emerald-100 pb-3">
+                        <span class="bg-sky-100 text-sky-800 text-[10px] font-extrabold px-2.5 py-1 rounded-full uppercase">Bagian 2</span>
+                        <h3 class="font-bold text-slate-800 text-base mt-1">MENGENALI UNSUR WAWANCARA (Soal 6–10)</h3>
+                        <p class="text-xs text-slate-500">Petunjuk: Pilih jawaban yang paling tepat.</p>
+                    </div>
+
+                    <!-- Soal 6 -->
+                    <div class="space-y-2 border-b border-slate-100 pb-4">
+                        <p class="text-sm font-medium text-slate-800">6. Siapakah yang menjadi narasumber dalam video wawancara tersebut?</p>
+                        <div class="space-y-2 pt-1">
+                            <div>
+                                <input type="radio" id="q6_a" name="q6" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q6_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>A. Kakak sepupu Kak Nitya</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q6_b" name="q6" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q6_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>B. Kak Nitya</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q6_c" name="q6" value="C" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q6_c" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>C. Siswa yang menonton video</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q6_d" name="q6" value="D" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q6_d" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>D. Pelatih lain yang tidak disebutkan</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soal 7 -->
+                    <div class="space-y-2 border-b border-slate-100 pb-4">
+                        <p class="text-sm font-medium text-slate-800">7. Apa tujuan pertanyaan “Bagaimana awal mula Anda mengenal bulu tangkis?”</p>
+                        <div class="space-y-2 pt-1">
+                            <div>
+                                <input type="radio" id="q7_a" name="q7" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q7_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>A. Mengetahui awal mula narasumber mengenal olahraga bulu tangkis</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q7_b" name="q7" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q7_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>B. Mengetahui makanan kesukaan</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q7_c" name="q7" value="C" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q7_c" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>C. Mengetahui tempat tinggal</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q7_d" name="q7" value="D" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q7_d" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>D. Mengetahui jumlah anggota keluarga</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soal 8 -->
+                    <div class="space-y-2 border-b border-slate-100 pb-4">
+                        <p class="text-sm font-medium text-slate-800">8. Pertanyaan “Bagaimana suka dan duka yang Anda alami saat menjadi atlet dulu?” bertujuan untuk mengetahui ....</p>
+                        <div class="space-y-2 pt-1">
+                            <div>
+                                <input type="radio" id="q8_a" name="q8" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q8_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>A. Nama klub terkenal</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q8_b" name="q8" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q8_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>B. Harga perlengkapan</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q8_c" name="q8" value="C" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q8_c" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>C. Pengalaman menyenangkan dan kesulitan yang dialami narasumber</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q8_d" name="q8" value="D" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q8_d" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>D. Jadwal pertandingan</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soal 9 -->
+                    <div class="space-y-2 border-b border-slate-100 pb-4">
+                        <p class="text-sm font-medium text-slate-800">9. Apa tujuan pertanyaan tentang hal penting yang harus dimiliki seorang pelatih?</p>
+                        <div class="space-y-2 pt-1">
+                            <div>
+                                <input type="radio" id="q9_a" name="q9" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q9_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>A. Mengetahui makanan disukai pelatih</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q9_b" name="q9" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q9_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>B. Mengetahui pandangan narasumber tentang kualitas yang diperlukan seorang pelatih</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q9_c" name="q9" value="C" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q9_c" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>C. Mengetahui hobi keluarga</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q9_d" name="q9" value="D" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q9_d" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>D. Mengetahui jumlah atlet</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soal 10 -->
+                    <div class="space-y-2">
+                        <p class="text-sm font-medium text-slate-800">10. Dalam wawancara, orang yang mengajukan pertanyaan disebut ....</p>
+                        <div class="space-y-2 pt-1">
+                            <div>
+                                <input type="radio" id="q10_a" name="q10" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q10_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>A. Narasumber</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q10_b" name="q10" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q10_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>B. Penonton</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q10_c" name="q10" value="C" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q10_c" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>C. Pendengar</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q10_d" name="q10" value="D" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q10_d" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>D. Pewawancara</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BAGIAN 3: MEMAHAMI ISI WAWANCARA (Soal 11–15) -->
+                <div class="bg-white rounded-2xl p-5 shadow-md border border-emerald-100 space-y-5">
+                    <div class="border-b border-emerald-100 pb-3">
+                        <span class="bg-amber-100 text-amber-800 text-[10px] font-extrabold px-2.5 py-1 rounded-full uppercase">Bagian 3</span>
+                        <h3 class="font-bold text-slate-800 text-base mt-1">MEMAHAMI ISI WAWANCARA (Soal 11–15)</h3>
+                        <p class="text-xs text-slate-500">Petunjuk: Pilih satu jawaban yang sesuai dengan isi wawancara.</p>
+                    </div>
+
+                    <!-- Soal 11 -->
+                    <div class="space-y-2 border-b border-slate-100 pb-4">
+                        <p class="text-sm font-medium text-slate-800">11. Apa yang dilakukan Kak Nitya sebelum akhirnya menekuni bulu tangkis?</p>
+                        <div class="space-y-2 pt-1">
+                            <div>
+                                <input type="radio" id="q11_a" name="q11" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q11_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>A. Mengikuti berbagai les atau kegiatan bersama kakak sepupunya</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q11_b" name="q11" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q11_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>B. Langsung menjadi pelatih</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q11_c" name="q11" value="C" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q11_c" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>C. Hanya mengikuti les menyanyi</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q11_d" name="q11" value="D" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q11_d" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>D. Berhenti mengikuti semua kegiatan</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soal 12 -->
+                    <div class="space-y-2 border-b border-slate-100 pb-4">
+                        <p class="text-sm font-medium text-slate-800">12. Salah satu dukacita yang dialami Kak Nitya ketika menjadi atlet adalah ....</p>
+                        <div class="space-y-2 pt-1">
+                            <div>
+                                <input type="radio" id="q12_a" name="q12" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q12_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>A. Tidak pernah mengikuti latihan</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q12_b" name="q12" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q12_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>B. Selalu dapat waktu bermain lebih</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q12_c" name="q12" value="C" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q12_c" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>C. Waktu bermain berkurang dan harus jauh dari keluarga</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q12_d" name="q12" value="D" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q12_d" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>D. Tidak pernah mengalami kesulitan</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soal 13 -->
+                    <div class="space-y-2 border-b border-slate-100 pb-4">
+                        <p class="text-sm font-medium text-slate-800">13. Apa salah satu hal yang membuat Kak Nitya bangga menjadi atlet?</p>
+                        <div class="space-y-2 pt-1">
+                            <div>
+                                <input type="radio" id="q13_a" name="q13" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q13_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>A. Bisa menghindari latihan</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q13_b" name="q13" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q13_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>B. Bisa membawa nama Indonesia dalam pertandingan internasional</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q13_c" name="q13" value="C" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q13_c" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>C. Tidak perlu ikut pertandingan</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q13_d" name="q13" value="D" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q13_d" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>D. Bisa berhenti berlatih</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soal 14 -->
+                    <div class="space-y-2 border-b border-slate-100 pb-4">
+                        <p class="text-sm font-medium text-slate-800">14. Menurut Kak Nitya, seorang pelatih sebaiknya tidak hanya memberikan program latihan, tetapi juga ....</p>
+                        <div class="space-y-2 pt-1">
+                            <div>
+                                <input type="radio" id="q14_a" name="q14" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q14_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>A. Membuat atlet takut berbicara</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q14_b" name="q14" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q14_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>B. Menghindari komunikasi</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q14_c" name="q14" value="C" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q14_c" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>C. Menyerahkan semua masalah</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q14_d" name="q14" value="D" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q14_d" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>D. Menjadi pendengar yang baik dan membangun komunikasi dengan atlet</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soal 15 -->
+                    <div class="space-y-2">
+                        <p class="text-sm font-medium text-slate-800">15. Apa yang disampaikan Kak Nitya mengenai proses menekuni bulu tangkis?</p>
+                        <div class="space-y-2 pt-1">
+                            <div>
+                                <input type="radio" id="q15_a" name="q15" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q15_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>A. Tidak perlu mencintai olahraga</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q15_b" name="q15" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q15_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>B. Cukup berlatih ketika ingin saja</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q15_c" name="q15" value="C" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q15_c" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>C. Jangan setengah-setengah dan jangan cepat patah semangat</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q15_d" name="q15" value="D" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q15_d" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>D. Berhenti ketika hadapi kesulitan</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BAGIAN 4: MENARIK KESIMPULAN (Soal 16–20) -->
+                <div class="bg-white rounded-2xl p-5 shadow-md border border-emerald-100 space-y-5">
+                    <div class="border-b border-emerald-100 pb-3">
+                        <span class="bg-purple-100 text-purple-800 text-[10px] font-extrabold px-2.5 py-1 rounded-full uppercase">Bagian 4</span>
+                        <h3 class="font-bold text-slate-800 text-base mt-1">MENARIK KESIMPULAN (Soal 16–20)</h3>
+                        <p class="text-xs text-slate-500">Petunjuk: Pilih jawaban yang paling tepat berdasarkan isi dan pesan wawancara.</p>
+                    </div>
+
+                    <!-- Soal 16 -->
+                    <div class="space-y-2 border-b border-slate-100 pb-4">
+                        <p class="text-sm font-medium text-slate-800">16. Mengapa waktu bermain Kak Nitya menjadi lebih sedikit ketika masih menjadi atlet?</p>
+                        <div class="space-y-2 pt-1">
+                            <div>
+                                <input type="radio" id="q16_a" name="q16" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q16_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>A. Karena harus menjalani latihan pagi dan sore selain bersekolah</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q16_b" name="q16" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q16_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>B. Karena tidak boleh sekolah</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q16_c" name="q16" value="C" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q16_c" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>C. Karena tidak suka keluar rumah</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q16_d" name="q16" value="D" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q16_d" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>D. Karena tidak punya teman</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soal 17 -->
+                    <div class="space-y-2 border-b border-slate-100 pb-4">
+                        <p class="text-sm font-medium text-slate-800">17. Mengapa komunikasi penting antara pelatih dan atlet menurut Kak Nitya?</p>
+                        <div class="space-y-2 pt-1">
+                            <div>
+                                <input type="radio" id="q17_a" name="q17" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q17_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>A. Agar atlet tidak perlu berlatih</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q17_b" name="q17" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q17_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>B. Agar pelatih dapat menghukum</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q17_c" name="q17" value="C" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q17_c" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>C. Agar atlet tidak bertanggung jawab</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q17_d" name="q17" value="D" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q17_d" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>D. Agar pelatih dapat memahami atlet dan atlet tidak merasa tertekan</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soal 18 -->
+                    <div class="space-y-2 border-b border-slate-100 pb-4">
+                        <p class="text-sm font-medium text-slate-800">18. Jika seorang atlet ingin mencapai impiannya, sikap yang paling sesuai dengan pesan Kak Nitya adalah ....</p>
+                        <div class="space-y-2 pt-1">
+                            <div>
+                                <input type="radio" id="q18_a" name="q18" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q18_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>A. Menghindari latihan berat</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q18_b" name="q18" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q18_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>B. Disiplin, bertanggung jawab, dan memiliki kemauan yang tinggi</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q18_c" name="q18" value="C" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q18_c" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>C. Menyerah saat kesulitan</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q18_d" name="q18" value="D" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q18_d" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>D. Hanya mengandalkan keberuntungan</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soal 19 -->
+                    <div class="space-y-2 border-b border-slate-100 pb-4">
+                        <p class="text-sm font-medium text-slate-800">19. Apa hubungan antara minat dan usaha berdasarkan kisah Kak Nitya?</p>
+                        <div class="space-y-2 pt-1">
+                            <div>
+                                <input type="radio" id="q19_a" name="q19" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q19_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>A. Minat tidak perlu diikuti tindakan</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q19_b" name="q19" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q19_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>B. Kemampuan hanya dari keberuntungan</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q19_c" name="q19" value="C" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q19_c" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>C. Ketertarikan pada suatu kegiatan dapat mendorong seseorang untuk terus berlatih</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q19_d" name="q19" value="D" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q19_d" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>D. Seseorang harus langsung mahir</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soal 20 -->
+                    <div class="space-y-2">
+                        <p class="text-sm font-medium text-slate-800">20. Apa pesan utama Kak Nitya kepada generasi muda yang ingin menekuni bulu tangkis?</p>
+                        <div class="space-y-2 pt-1">
+                            <div>
+                                <input type="radio" id="q20_a" name="q20" value="A" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q20_a" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>A. Jangan mencoba hal baru</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q20_b" name="q20" value="B" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q20_b" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>B. Utamakan bermain daripada berlatih</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q20_c" name="q20" value="C" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q20_c" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>C. Berhenti jika prosesnya panjang</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" id="q20_d" name="q20" value="D" class="hidden radio-custom" onchange="updateProgress()">
+                                <label for="q20_d" class="flex items-center justify-between p-3 rounded-xl border border-slate-200 text-xs cursor-pointer hover:bg-slate-50">
+                                    <span>D. Percaya pada kemampuan diri, memiliki kemauan, dan tidak cepat patah semangat</span>
+                                    <i class="fa-solid fa-circle-check text-court-600 opacity-0 icon-check"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tombol Submit -->
+                <div class="pt-2">
+                    <button 
+                        type="button" 
+                        onclick="submitLKPD()" 
+                        class="w-full py-4 px-6 bg-emerald-600 hover:bg-emerald-700 active:scale-[0.98] text-white font-extrabold rounded-2xl shadow-xl shadow-emerald-600/30 flex items-center justify-center gap-2 transition-all text-base tracking-wide"
+                    >
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span>Selesai & Submit LKPD</span>
+                    </button>
+                </div>
+
+            </form>
+        </section>
+
+        <!-- SECTION 3: RESULT & EVALUATION (Hidden by default) -->
+        <section id="result-section" class="hidden space-y-5">
+            
+            <!-- PEMBERITAHUAN MENCOLOK FOR SCREENSHOT -->
+            <div class="bg-gradient-to-r from-red-500 via-rose-500 to-amber-500 text-white rounded-2xl p-4 shadow-xl border-2 border-amber-300 animate-pulse">
+                <div class="flex items-start gap-3">
+                    <div class="text-2xl pt-1">📸</div>
+                    <div>
+                        <h4 class="font-extrabold text-sm uppercase tracking-wider text-amber-200">PERHATIAN PENTING:</h4>
+                        <p class="text-xs md:text-sm font-semibold mt-0.5 leading-snug">
+                            Silakan <strong>SCREENSHOT</strong> halaman hasil nilai ini dan kirimkan hasilnya ke WhatsApp pribadi Guru!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Score Summary Card -->
+            <div class="bg-white rounded-2xl p-6 shadow-xl border border-emerald-100 text-center space-y-4 relative overflow-hidden">
+                <div class="absolute top-0 left-0 right-0 h-3 bg-gradient-to-r from-court-500 to-amber-400"></div>
+                
+                <div class="inline-block bg-court-100 text-court-800 text-xs font-bold px-3 py-1 rounded-full uppercase">
+                    Hasil Lembar Kerja Peserta Didik
+                </div>
+
+                <div class="space-y-1">
+                    <h3 id="resultStudentName" class="text-xl font-bold text-slate-800">Nama Siswa</h3>
+                    <p class="text-xs text-slate-500">Bahasa Indonesia Kelas 6 — Bab 3: Menyimak Wawancara Atlet</p>
+                </div>
+
+                <!-- Big Score Badge -->
+                <div class="py-4">
+                    <div class="inline-flex flex-col items-center justify-center w-36 h-36 rounded-full bg-gradient-to-tr from-court-600 to-emerald-400 text-white shadow-lg border-4 border-amber-300">
+                        <span class="text-xs uppercase font-semibold text-emerald-100 tracking-wider">Nilai Akhir</span>
+                        <span id="finalScore" class="text-5xl font-black font-header tracking-tight">0</span>
+                        <span class="text-[10px] text-emerald-100">dari 100 Poin</span>
+                    </div>
+                </div>
+
+                <!-- Summary Pills -->
+                <div class="grid grid-cols-2 gap-3 max-w-xs mx-auto">
+                    <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-2.5">
+                        <span class="block text-[10px] text-emerald-700 font-bold uppercase">Ringkasan Jawaban</span>
+                        <span id="correctAnswersText" class="text-sm font-extrabold text-emerald-800">0 dari 20 Soal</span>
+                    </div>
+                    <div class="bg-amber-50 border border-amber-200 rounded-xl p-2.5">
+                        <span class="block text-[10px] text-amber-700 font-bold uppercase">Predikat</span>
+                        <span id="gradePredicate" class="text-sm font-extrabold text-amber-800">-</span>
+                    </div>
+                </div>
+
+                <div class="pt-2 text-xs text-slate-500 border-t border-slate-100" id="completionTime">
+                    Waktu Selesai: -
+                </div>
+            </div>
+
+            <!-- Tombol Panduan Evaluasi / Pembahasan -->
+            <button 
+                onclick="toggleEvaluation()" 
+                class="w-full py-3.5 px-5 bg-sky-600 hover:bg-sky-700 active:scale-[0.98] text-white font-bold rounded-xl shadow-md flex items-center justify-center gap-2 transition-all text-sm"
+            >
+                <i class="fa-solid fa-book-open"></i>
+                <span>Panduan Evaluasi / Pembahasan</span>
+            </button>
+
+            <!-- FITUR PEMBAHASAN TANPA MENGUTIP KUNCI JAWABAN (ANTI-REPETISI) -->
+            <div id="evaluationSection" class="hidden bg-white rounded-2xl p-5 shadow-md border border-sky-100 space-y-4">
+                <div class="border-b border-sky-100 pb-3 flex items-center justify-between">
+                    <h3 class="font-bold text-sky-900 text-sm flex items-center gap-2">
+                        <i class="fa-solid fa-lightbulb text-amber-500"></i> Rangkuman Evaluasi Pemahaman
+                    </h3>
+                    <span class="text-[10px] bg-sky-100 text-sky-800 font-bold px-2 py-0.5 rounded">Panduan Belajar</span>
+                </div>
+
+                <div class="space-y-3 text-xs md:text-sm text-slate-600 leading-relaxed">
+                    <div class="p-3 bg-slate-50 rounded-xl border-l-4 border-court-500 space-y-1">
+                        <h4 class="font-bold text-slate-800 text-xs uppercase text-court-700">1. Informasi Tokoh & Awal Perjalanan</h4>
+                        <p>
+                            Ingat kembali awal mula narasumber menyukai dan mengenal olahraga bulu tangkis. Hal tersebut bermula dari lingkungan terdekat seperti keluarga dan kegiatan bersama kakak sepupunya yang kemudian berkembang menjadi kecintaan yang ditekuni secara konsisten.
+                        </p>
+                    </div>
+
+                    <div class="p-3 bg-slate-50 rounded-xl border-l-4 border-amber-500 space-y-1">
+                        <h4 class="font-bold text-slate-800 text-xs uppercase text-amber-700">2. Perjuangan & Suka Duka Atlet</h4>
+                        <p>
+                            Menjadi atlet profesional membutuhkan pengorbanan yang besar. Suka duka yang dialami mencakup berkurangnya waktu bermain, latihan teratur (pagi/sore), serta harus jauh dari keluarga demi membela nama negara di ajang internasional.
+                        </p>
+                    </div>
+
+                    <div class="p-3 bg-slate-50 rounded-xl border-l-4 border-sky-500 space-y-1">
+                        <h4 class="font-bold text-slate-800 text-xs uppercase text-sky-700">3. Peran Pelatih & Atlet</h4>
+                        <p>
+                            Pelatih tidak hanya memberikan program latihan fisik, tetapi juga harus membangun komunikasi dua arah agar atlet tidak merasa tertekan. Kunci utama keberhasilan seorang atlet adalah sikap disiplin, tanggung jawab, kemauan keras, serta tidak cepat patah semangat ketika menghadapi tantangan.
+                        </p>
+                    </div>
+                </div>
+
+                <p class="text-[11px] text-slate-400 italic text-center pt-2 border-t border-slate-100">
+                    *Gunakan rangkuman di atas untuk merefleksikan pemahamanmu terhadap wawancara.
+                </p>
+            </div>
+
+            <!-- Tombol Ulangi / Kembalikan ke Awal -->
+            <button 
+                onclick="resetLKPD()" 
+                class="w-full py-3 px-4 bg-slate-200 hover:bg-slate-300 text-slate-700 font-semibold rounded-xl text-xs flex items-center justify-center gap-2 transition-all"
+            >
+                <i class="fa-solid fa-rotate-right"></i>
+                <span>Mengerjakan Ulang LKPD</span>
+            </button>
+
+        </section>
+
+    </main>
+
+    <!-- Custom Modal Warning -->
+    <div id="customModal" class="fixed inset-0 bg-slate-900/60 z-50 hidden flex items-center justify-center p-4 backdrop-blur-sm">
+        <div class="bg-white rounded-2xl p-5 max-w-xs w-full shadow-2xl text-center space-y-3 transform transition-all">
+            <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mx-auto text-xl">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+            <h4 class="font-bold text-slate-800 text-base">Belum Selesai!</h4>
+            <p id="modalMessage" class="text-xs text-slate-600 leading-normal">
+                Masih ada soal yang belum kamu jawab. Harap periksa kembali semua jawabanmu!
+            </p>
+            <button 
+                onclick="closeModal()" 
+                class="w-full py-2.5 bg-court-600 hover:bg-court-700 text-white font-bold rounded-xl text-xs shadow"
+            >
+                Mengerti
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Key Answers Definition
+        const KUNCI_JAWABAN = {
+            q1: "A", // BENAR
+            q2: "A", // BENAR
+            q3: "A", // BENAR
+            q4: "B", // SALAH
+            q5: "A", // BENAR
+            q6: "B", // Kak Nitya
+            q7: "A", // Mengetahui awal mula narasumber mengenal olahraga bulu tangkis
+            q8: "C", // Pengalaman menyenangkan dan kesulitan yang dialami narasumber
+            q9: "B", // Mengetahui pandangan narasumber tentang kualitas yang diperlukan seorang pelatih
+            q10: "D", // Pewawancara
+            q11: "A", // Mengikuti berbagai les atau kegiatan bersama kakak sepupunya
+            q12: "C", // Waktu bermain berkurang dan harus jauh dari keluarga
+            q13: "B", // Bisa membawa nama Indonesia dalam pertandingan internasional
+            q14: "D", // Menjadi pendengar yang baik dan membangun komunikasi dengan atlet
+            q15: "C", // Jangan setengah-setengah dan jangan cepat patah semangat
+            q16: "A", // Karena harus menjalani latihan pagi dan sore selain bersekolah
+            q17: "D", // Agar pelatih dapat memahami atlet dan atlet tidak merasa tertekan
+            q18: "B", // Disiplin, bertanggung jawab, dan memiliki kemauan yang tinggi
+            q19: "C", // Ketertarikan pada suatu kegiatan dapat mendorong seseorang untuk terus berlatih
+            q20: "D"  // Percaya pada kemampuan diri, memiliki kemauan, dan tidak cepat patah semangat
+        };
+
+        let studentNameGlobal = "";
+
+        // Function Start Quiz
+        function startQuiz() {
+            const nameInput = document.getElementById('studentName').value.trim();
+            const nameError = document.getElementById('nameError');
+
+            if (!nameInput) {
+                nameError.classList.remove('hidden');
+                document.getElementById('studentName').focus();
+                return;
+            }
+
+            nameError.classList.add('hidden');
+            studentNameGlobal = nameInput;
+            document.getElementById('displayStudentName').innerText = studentNameGlobal;
+
+            // Switch section
+            document.getElementById('portal-section').classList.add('hidden');
+            document.getElementById('quiz-section').classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Function Update Progress Counter
+        function updateProgress() {
+            let answered = 0;
+            for (let i = 1; i <= 20; i++) {
+                const selected = document.querySelector(`input[name="q${i}"]:checked`);
+                if (selected) answered++;
+            }
+            document.getElementById('answeredCount').innerText = answered;
+        }
+
+        // Custom Modal Control
+        function showModal(msg) {
+            document.getElementById('modalMessage').innerText = msg;
+            document.getElementById('customModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('customModal').classList.add('hidden');
+        }
+
+        // Function Submit LKPD
+        function submitLKPD() {
+            let answeredCount = 0;
+            let unansweredQuestions = [];
+
+            for (let i = 1; i <= 20; i++) {
+                const selected = document.querySelector(`input[name="q${i}"]:checked`);
+                if (selected) {
+                    answeredCount++;
+                } else {
+                    unansweredQuestions.push(i);
+                }
+            }
+
+            // Check if all questions are answered
+            if (answeredCount < 20) {
+                showModal(`Kamu baru menjawab ${answeredCount} dari 20 soal. Mohon selesaikan soal nomor: ${unansweredQuestions.join(', ')}.`);
+                return;
+            }
+
+            // Calculate Score
+            let correctCount = 0;
+            for (let i = 1; i <= 20; i++) {
+                const selected = document.querySelector(`input[name="q${i}"]:checked`).value;
+                if (selected === KUNCI_JAWABAN[`q${i}`]) {
+                    correctCount++;
+                }
+            }
+
+            const totalScore = correctCount * 5; // Each question is worth 5 pts
+
+            // Determine Predicate
+            let predicate = "";
+            if (totalScore >= 90) predicate = "Sangat Baik (A)";
+            else if (totalScore >= 80) predicate = "Baik (B)";
+            else if (totalScore >= 70) predicate = "Cukup (C)";
+            else predicate = "Perlu Belajar Lagi (D)";
+
+            // Update Result Display
+            document.getElementById('resultStudentName').innerText = studentNameGlobal;
+            document.getElementById('finalScore').innerText = totalScore;
+            document.getElementById('correctAnswersText').innerText = `${correctCount} dari 20 Soal`;
+            document.getElementById('gradePredicate').innerText = predicate;
+
+            // Timestamp
+            const now = new Date();
+            const timeString = now.toLocaleDateString('id-ID', { 
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+            document.getElementById('completionTime').innerText = `Waktu Selesai: ${timeString} WIB`;
+
+            // Switch to Result View
+            document.getElementById('quiz-section').classList.add('hidden');
+            document.getElementById('result-section').classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Toggle Evaluation / Pembahasan Section
+        function toggleEvaluation() {
+            const evalSec = document.getElementById('evaluationSection');
+            if (evalSec.classList.contains('hidden')) {
+                evalSec.classList.remove('hidden');
+                evalSec.scrollIntoView({ behavior: 'smooth' });
+            } else {
+                evalSec.classList.add('hidden');
+            }
+        }
+
+        // Reset LKPD to start over
+        function resetLKPD() {
+            document.getElementById('lkpdForm').reset();
+            updateProgress();
+            document.getElementById('evaluationSection').classList.add('hidden');
+            document.getElementById('result-section').classList.add('hidden');
+            document.getElementById('portal-section').classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
